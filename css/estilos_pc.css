@@ -1,0 +1,443 @@
+@font-face {
+	font-family: 'arr';
+	src:url('../fonts/arr.eot?-naabtt');
+	src:url('../fonts/arr.eot?#iefix-naabtt') format('embedded-opentype'),
+		url('../fonts/arr.ttf?-naabtt') format('truetype'),
+		url('../fonts/arr.woff?-naabtt') format('woff'),
+		url('../fonts/arr.svg?-naabtt#arr') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="font"], [class*=" font"] {
+	font-family: 'arr';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+@media(min-width:1024px){
+	body
+	{		
+		background: #6A6663;
+		//background: url(../img/fondo.jpg);
+ 		color: #870419;
+		margin: 0 auto;
+		max-width: 1100px;
+	}	
+ 	footer
+ 	{
+ 		background: #035A7C;
+ 		clear: both;
+ 		color: #fff; 		
+ 		font-size: 1em;
+ 		padding: .5em;
+ 		position: relative;
+ 		text-align: center;
+ 	}
+ 	footer p
+ 	{
+ 		position: relative;
+ 		top: -3em;
+ 	}
+ 	footer a
+ 	{
+ 		color: #fff;
+ 		display: inline-block;
+ 		font-size: 2em;
+ 		text-decoration: none;
+ 	}
+ 	footer figure a
+ 	{
+ 		cursor: pointer;
+ 		display: inline-block;
+ 		height: 1em;
+ 		position: relative;
+ 		width: 1em;
+ 		z-index: 10;
+ 	}
+ 	footer #creadores-sitio
+ 	{
+ 		font-size: .8em;
+
+ 	}
+ 	footer #foot-aviso a
+ 	{
+ 		font-size: 1em;
+ 	}
+ 	footer .redes
+ 	{
+ 		position: relative;
+ 		text-align: left;
+ 		margin-left: 10em;
+ 		margin-top: 1em;
+ 		padding-left: 0em;
+ 	}
+	header
+	{
+		margin: 0;
+		width: 100%;
+	}	
+	header, #pc-espanol, #pc-ingles
+	{
+		background: url(../img/fondo.jpg);		
+	}
+	header figure img
+	{
+		width: 100%;
+	}
+	iframe
+	{
+		display: block;
+		margin: 0 auto;
+		width: 90%;
+	}
+	nav
+	{
+		display: inline-block;
+		margin: 0;
+		padding: 0;
+		width: 22%;
+	}
+	nav ul
+	{
+		display: block;
+		list-style: none;
+		padding: 0;
+		position: relative;
+		width: 100%;
+	}
+	nav ul li
+	{
+		border-bottom: solid 2px #CF7728;
+		color: #CF7728;
+		display: block;
+		float: right;
+		padding: .5em 0;
+		width: 51%;
+	}
+ 	nav ul li:before
+ 	{
+		float: right;
+ 		font-family: "arr";
+ 		font-size: 1.5em;
+ 		position: relative;
+ 		right: .2em;
+ 	}
+ 	nav ul li#ini:before
+ 	{
+ 		content: "\e600"; 		
+ 	}
+ 	nav ul li#nos:before
+ 	{
+ 		content: "\e972"; 		
+ 	}
+ 	nav ul li#serv:before
+ 	{
+ 		content: "\e9b8"; 		
+ 	}
+ 	nav ul li#cont:before
+ 	{
+ 		content: "\e9cb"; 		
+ 	}
+ 	nav ul li#eq:before
+ 	{
+ 		content: "\e9cf"; 		
+ 	}
+ 	nav ul li#cli:before
+ 	{
+ 		content: "\e601"; 		
+ 	}
+	nav ul li a
+	{
+		color: #CF7728;
+		display: block;
+		font-size: 1em;
+		font-weight: bold;
+		padding: .45em 0;
+		text-align: center;
+		text-decoration: none;
+		width: 100%;
+	}
+	nav ul li a:hover
+ 	{
+ 		background: #860016;
+ 		border-radius: 7px;
+ 		color: #fff;
+
+ 		-webkit-box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+		-moz-box-shadow:    7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+		box-shadow:         7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+ 	}
+ 	section
+ 	{
+ 		background: rgba(244,224,207,.5);
+ 		color: #870017;
+ 		float: right;
+ 		font-size: .9em;
+ 		height: 24em;
+ 		text-align: justify;
+ 		padding: 1em;
+ 		vertical-align: top;
+ 		width: 73%;
+ 	}
+ 	#clientes 
+ 	{
+ 		font-size: .9em;
+ 		height: 26em;
+ 	}
+ 	#clientes #logos-clientes img
+ 	{
+ 		float: right;
+ 		width: 40%;
+ 	}
+ 	#contacto
+ 	{
+ 		overflow: hidden;
+ 	}
+ 	#contacto form
+ 	{
+ 		font-size: 1.15em;
+ 		text-align: center;
+ 	}
+ 	#contacto form input
+ 	{
+ 		padding: .25em;
+ 		width: 90%;
+ 	}
+ 	#contacto form textarea
+ 	{
+ 		height: 4em;
+ 		padding: .25em;
+ 		width: 90%;
+ 	}
+ 	#contacto form #btn-enviar
+ 	{
+ 		background: #CF7728;
+ 		border-radius: 7px;
+ 		color: #fff;
+ 	}
+ 	#contacto form #btn-enviar:hover
+ 	{
+ 		background: #8B0116;
+ 	}
+ 	#contacto .contenido
+ 	{
+ 		display: inline-block;
+ 		vertical-align: top;
+ 		width: 28%;
+ 	}
+ 	#contacto #direcciones
+ 	{
+ 		display: inline-block;
+ 		height: 25em;
+ 		margin-left: .25em;
+ 		overflow: scroll;
+ 		width: 68%
+ 	}
+ 	#equipo 
+ 	{
+ 		overflow: scroll;
+ 	}
+ 	#equipo div
+ 	{
+ 		display: block;
+ 		width: 100%;
+ 	}
+ 	#equipo div div
+ 	{
+ 		display: inline-block;
+ 		vertical-align: top;
+ 		width: 30%;
+ 	}
+ 	#equipo figure
+ 	{
+ 		text-align: center;
+ 		margin-top: 1em;
+ 	}
+ 	#equipo figure img
+ 	{
+ 		display: block;
+ 		border: solid #035A7C 4px;
+ 		border-radius: 150px;
+ 		//height: 10em;
+ 		margin: 0 auto;
+ 		padding: .25em;
+ 		width: 8em;
+ 	}
+ 	#equipo #alfonso
+ 	{
+ 		border-left: 2px solid #035A7C;
+ 		border-right: 2px solid #035A7C;
+ 	}
+ 	#equipo .contenido
+ 	{
+ 		background: #000;
+ 	}
+	#equipo .cv 
+	{
+		margin: 0 auto;
+		padding-left: 1.5em;
+		text-align: left;
+		width: 90%;
+	}
+	#equipo .social img
+	{
+		border: solid #035A7C 3px;
+		display: inline-block;
+		cursor: pointer;
+		height: 1.5em;
+		width: 1.5em;
+	}
+	#equipo .titulos
+	{
+		background: #CF7728;
+		color: #fff;
+		cursor: pointer;
+		display: none;
+		font-size: .85em;
+		margin: 0 auto;
+		margin-top: 1em;
+		padding: .5em;
+		width: 8em;
+	}
+	#equipo .titulos:hover
+	{
+		background: #900017;		
+	}
+ 	#inicio figure
+ 	{
+ 		display: inline-block;
+ 		margin-left: 2em;
+ 		vertical-align: top;
+ 		width: 45%;
+ 	}
+ 	#inicio figure img
+ 	{
+ 		width: 20%;
+ 	}
+ 	#inicio .contenido
+ 	{
+ 		display: inline-block;
+ 	}
+ 	#nosotros
+ 	{
+ 		font-size: .9em;
+ 	}
+ 	#nosotros figure
+ 	{
+ 		float: right;
+ 		margin-left: 2em;
+ 	}
+ 	#nosotros figure img
+ 	{
+ 		width: 50%;
+ 	}
+ 	#nosotros #contenido-principal
+ 	{
+ 		display:  inline-block;
+ 	}
+ 	#nosotros #valores
+ 	{
+ 		display: inline-block;
+ 		margin-left: 5em;
+ 		text-indent: 3em;
+ 		width: 15%;
+ 	} 	
+ 	#pc-ingles
+ 	{
+ 		display: none;
+ 	}
+ 	#pc-ingles #nosotros
+ 	{
+ 		overflow: scroll;
+ 	}
+ 	#pc-ingles #nosotros article
+ 	{
+ 		width: 100%;
+ 	}
+	#regresar
+	{
+		display: none;
+	}
+	#servicio 
+	{
+		overflow: scroll;
+	}
+	.contenido
+	{
+		text-align: justify;
+		width: 50%;
+	}
+	.flexslider
+	{
+		margin: 0;
+		position: relative;
+		top: -1em;
+	}
+	.idiomas 
+	{
+		position: absolute;
+		text-align: center;
+		top: 4em;
+	}
+	.idiomas figure
+	{
+		left: .75em;
+		position: relative;
+		margin-bottom: 1em;
+	}
+	.idiomas figure img
+	{
+		border-radius: 15px;
+		display: block;
+		height: 1.25em;
+		width: 1.25em;
+	}
+	.idiomas figure figcaption
+	{
+		font-size: .6em;
+		position: relative;
+	}
+	.idiomas.pc figure
+	{
+		display: inline-block;
+		margin-left: 1em;
+	}
+	.idiomas figure figcaption
+	{
+		font-size: .65em;
+	}
+	.movil
+	{
+		display: none;
+	}
+	.nombres
+	{
+		display: block;
+		font-size: .9em;
+		font-weight: bold;
+		text-align: center;
+		width: 100%;
+	}
+	.pc
+	{
+		display: block;	
+	}
+ 	.pc #clientes, .pc #equipo, .pc #nosotros, .pc #servicio, .pc #contacto, .pc #clientes
+ 	{
+ 		display: none;
+ 	} 	
+	#pc-ingles, #pc-espanol
+	{	
+ 		position: relative;
+ 		top: -1.25em;
+	}
+
+}

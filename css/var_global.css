@@ -1,0 +1,31 @@
+
+ .centrar
+ {
+ 	display: block;
+ 	text-align: center;
+ 	width: 100%;
+ }
+ .italica
+ {
+ 	font-style: italic;
+ }
+ .subtitulos
+ {
+ 	color: #870419;
+ 	font-weight: bold;
+ }
+ .text-bold
+ {
+ 	color: #870419;
+ 	font-weight: bold;
+ }
+ .linea-arriba
+ {
+ 	border-top: solid 1px #870419;
+ 	padding-top: 1em;
+ }
+ .linea-izq
+ {
+ 	border-left: solid 1px #870419;
+ 	padding-left: 1em;
+ }

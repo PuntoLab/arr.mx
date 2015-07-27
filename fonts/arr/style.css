@@ -1,0 +1,46 @@
+@font-face {
+	font-family: 'arr';
+	src:url('fonts/arr.eot?-naabtt');
+	src:url('fonts/arr.eot?#iefix-naabtt') format('embedded-opentype'),
+		url('fonts/arr.ttf?-naabtt') format('truetype'),
+		url('fonts/arr.woff?-naabtt') format('woff'),
+		url('fonts/arr.svg?-naabtt#arr') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="font"], [class*=" font"] {
+	font-family: 'arr';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.fontearth:before {
+	content: "\e600";
+}
+.fontusers:before {
+	content: "\e972";
+}
+.fontclipboard:before {
+	content: "\e9b8";
+}
+.fontmenu-movil:before {
+	content: "\e9be";
+}
+.fontlink:before {
+	content: "\e9cb";
+}
+.fonteye-plus:before {
+	content: "\e9cf";
+}
+.fontworld:before {
+	content: "\e601";
+}

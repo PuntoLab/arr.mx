@@ -1,0 +1,605 @@
+ @font-face {
+	font-family: 'arr';
+	src:url('../fonts/arr.eot?-naabtt');
+	src:url('../fonts/arr.eot?#iefix-naabtt') format('embedded-opentype'),
+		url('../fonts/arr.ttf?-naabtt') format('truetype'),
+		url('../fonts/arr.woff?-naabtt') format('woff'),
+		url('../fonts/arr.svg?-naabtt#arr') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="font"], [class*=" font"] {
+	font-family: 'arr';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+@media(max-width:1023px){
+	article
+ 	{
+ 		font-size: 1.1em; 	
+ 	}
+ 	body
+ 	{
+ 		background: url(../img/fondo.jpg);
+ 		color: #870419;
+ 	}
+ 	footer
+ 	{
+ 		background: #035A7C;
+ 		bottom: -.35em;
+ 		padding: 0em;  	
+ 		padding-top: .15em;
+ 		position: fixed;
+ 		text-align: center;
+ 		width: 100%;
+ 	}
+ 	footer a
+ 	{
+ 		color: #D0833E;
+ 		font-size: 1em;
+ 		font-weight: bold;
+ 		text-decoration: none;
+ 	}
+ 	footer figure a img
+ 	{
+ 		display: inline;
+ 	}
+ 	footer p
+ 	{
+ 		color: #fff;
+ 		font-size: .75em;
+ 		font-weight: bold;	
+ 	}
+ 	footer #creadores-sitio
+ 	{
+ 		margin-left: 6em;
+ 	}
+ 	footer #foot-aviso
+ 	{
+ 		margin-left: 7em;
+ 	}
+ 	footer #foot-aviso a
+ 	{
+ 		font-size: 1.5em;
+ 	}
+ 	footer .redes
+ 	{
+ 		float: right;
+ 		margin-right: 2em;
+ 		margin-top: 1em;
+ 	}
+ 	footer .redes img
+ 	{
+ 		width: 2em;
+ 	}
+ 	header
+ 	{
+ 		width: 100%;
+ 	}
+ 	header figure
+ 	{
+ 		width: 100%;
+ 	}
+ 	header figure img
+ 	{
+ 		display: block;
+ 		width: 100%;
+ 	}
+ 	hr
+ 	{
+ 		border: solid 1px #870419;
+ 		margin: 2em 0;
+ 	}
+ 	input
+ 	{
+ 		font-size: 1.15em;
+ 		padding: .75em;
+ 	}
+ 	nav
+ 	{
+ 		margin-top: 2.5em;
+ 		width: 100%;
+ 	}
+ 	nav ul
+ 	{
+ 		display: block;
+ 		list-style: none;
+ 		margin: 0;
+ 		padding: 0;
+ 		width: 100%;
+ 	}
+ 	nav ul li
+ 	{
+ 		margin: 0 auto;
+ 		margin-top: .75em;
+ 		text-align: center;
+ 		width: 90%;
+ 	}
+ 	nav ul li a
+ 	{
+ 		background: #F4E0CF;
+ 		border-radius: 8px;
+ 		color: #D4853D;
+ 		display: block;
+ 		font-size: 1.5em;
+ 		padding: 1.5em 0;
+ 		text-decoration: none;
+ 		text-align: left;
+ 		text-indent: 40%;
+ 		width: 100%;
+ 	}
+ 	nav ul li a:hover
+ 	{
+ 		background: #860016;
+ 		color: #fff;
+ 		text-decoration: underline;
+
+ 		-webkit-box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+		-moz-box-shadow:    7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+		box-shadow:         7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+ 	}
+ 	nav ul li a:before
+ 	{
+ 		font-family: "arr";
+ 		font-size: 1.35em;
+ 		margin-right: .5em;
+ 	}
+ 	nav ul li a#ini:before
+ 	{
+ 		content: "\e600"; 		
+ 	}
+ 	nav ul li a#nos:before
+ 	{
+ 		content: "\e972"; 		
+ 	}
+ 	nav ul li a#serv:before
+ 	{
+ 		content: "\e9b8"; 		
+ 	}
+ 	nav ul li a#cont:before
+ 	{
+ 		content: "\e9cb"; 		
+ 	}
+ 	nav ul li a#eq:before
+ 	{
+ 		content: "\e9cf"; 		
+ 	}
+ 	nav ul li a#cli:before
+ 	{
+ 		content: "\e601"; 		
+ 	}
+ 	section
+ 	{
+ 		background: rgba(135,4,25,.2);
+ 		font-size: 1em;
+ 		margin: 0 auto;
+ 		margin-top: 1em;
+ 		padding: .5em;
+ 		text-align: justify;
+ 		width: 95%;
+ 	}
+ 	section#inicio, #nosotros, #servicios, #contacto, #equipo, #clientes
+ 	{
+ 		display: none;
+ 	}
+ 	textarea
+ 	{
+ 		height: 4em;
+ 		width: 60%;
+ 	}
+ 	#btn-enviar
+ 	{
+ 		background: #8E8D8D;
+ 		font-size: 1.5em;
+ 		padding: .5em;
+ 		width: 60%;
+ 	}
+ 	#clientes figure img
+ 	{
+ 		display: block;
+ 		margin: 0 auto;
+ 		margin-bottom: 3em;
+ 		width: 70%;
+ 	}
+ 	#contacto form
+ 	{
+ 		text-align: center;
+ 	}
+ 	#contacto iframe
+ 	{
+ 		height: 15em;
+ 		width: 70%;
+ 	}
+ 	#equipo
+ 	{
+ 		font-size: 1em;
+ 		text-align: left;
+ 	}
+ 	#equipo figure img
+ 	{
+ 		display: block;
+ 		background: #fff;
+ 		border: solid #035A7C 6px;
+ 		border-radius: 150px;
+ 		height: 10em;
+ 		margin: 0 auto;
+ 		margin-top: 2em;
+ 		padding: .25em;
+ 		width: 10em;
+ 	}
+ 	#flecha-azul
+ 	{
+ 		cursor: pointer;
+ 		display: none;
+ 		font-size: 1em;
+ 		opacity: .3;
+ 		position: fixed;
+ 		top: 60%;
+ 		width: 4em;
+ 	}
+ 	#flecha-azul img
+ 	{
+ 		opacity: .5em;
+ 		width: 4em;
+ 	}
+ 	#movil-ingles
+ 	{
+ 		display: none;
+ 	}
+ 	#regresar
+ 	{
+ 		bottom: .5em;
+ 		left: 8em;
+ 		position: fixed;
+ 	}
+ 	#regresar img
+ 	{
+ 		width: 100%;
+ 	}
+ 	#ultimo
+ 	{
+ 		margin-bottom: 4.5em;
+ 	}
+ 	.centrar
+ 	{
+ 		display: block;
+ 		text-align: center;
+ 		width: 100%;
+ 	}
+ 	.idiomas
+ 	{
+ 		text-align: center;
+ 		width: 100%;
+ 	}	
+ 	.idiomas figure
+ 	{
+ 		display: inline-block;
+ 		margin-left: 2em;
+ 		margin-top: 1em;
+ 	}
+ 	.idiomas figure figcaption
+ 	{
+ 		font-size: .75em;
+ 	}
+ 	.idiomas figure img
+ 	{
+ 		border-radius: 50px;
+ 		display: block;
+ 		height: 2em; 
+ 		width: 2em;	
+ 	}
+ 	.movil
+ 	{
+ 		display: block;
+ 	}
+ 	.pc
+ 	{
+ 		display: none;
+ 	}
+ 	.subtitulos
+ 	{
+ 		color: #870419;
+ 		font-weight: bold;
+ 	}
+ 	.text-bold
+ 	{
+ 		color: #870419;
+ 		font-weight: bold;
+ 	}
+}
+ @media(max-width:767px){
+ 	article
+ 	{
+ 		font-size: 1em; 	
+ 	}
+ 	body
+ 	{
+ 		background: url(../img/fondo.jpg);
+ 		color: #870419;
+ 	}
+ 	footer
+ 	{
+ 		background: #035A7C;
+ 		bottom: -.35em;
+ 		padding: 0em;  	
+ 		padding-top: .15em;
+ 		position: fixed;
+ 		text-align: center;
+ 		width: 100%;
+ 	}
+ 	footer a
+ 	{
+ 		color: #D0833E;
+ 		font-size: 1em;
+ 		font-weight: bold;
+ 		text-decoration: none;
+ 	}
+ 	footer p
+ 	{
+ 		color: #fff;
+ 		font-size: .75em;
+ 		font-weight: bold;	
+ 	}
+ 	footer #creadores-sitio
+ 	{
+ 		font-size: .75em;
+ 	}
+ 	footer #foot-aviso
+ 	{
+ 		margin-left: 3em;
+ 	}
+ 	footer #foot-aviso a
+ 	{
+ 		font-size: .95em;
+ 	}
+ 	footer .redes
+ 	{
+ 		float: right;
+ 		margin-right: 1em;
+ 	}
+ 	footer .redes img
+ 	{
+ 		width: 1.5em;
+ 	}
+ 	header
+ 	{
+ 		width: 100%;
+ 	}
+ 	header figure
+ 	{
+ 		width: 100%;
+ 	}
+ 	header figure img
+ 	{
+ 		display: block;
+ 		width: 100%;
+ 	}
+ 	hr
+ 	{
+ 		border: solid 1px #870419;
+ 		margin: 2em 0;
+ 	}
+ 	input
+ 	{
+ 		font-size: 1.15em;
+ 		padding: .75em;
+ 	}
+ 	nav
+ 	{
+ 		margin-top: 1.5em;
+ 		width: 100%;
+ 	}
+ 	nav ul
+ 	{
+ 		display: block;
+ 		list-style: none;
+ 		margin: 0;
+ 		padding: 0;
+ 		width: 100%;
+ 	}
+ 	nav ul li
+ 	{
+ 		margin: 0 auto;
+ 		margin-top: .5em;
+ 		text-align: center;
+ 		width: 90%;
+ 	}
+ 	nav ul li a
+ 	{
+ 		background: #F4E0CF;
+ 		border-radius: 8px;
+ 		color: #D4853D;
+ 		display: block;
+ 		font-size: 1.25em;
+ 		padding: .35em 0;
+ 		text-decoration: none;
+ 		text-align: left;
+ 		text-indent: 30%;
+ 		width: 100%;
+ 	}
+ 	nav ul li a:hover
+ 	{
+ 		background: #860016;
+ 		color: #fff;
+ 		text-decoration: underline;
+
+ 		-webkit-box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+		-moz-box-shadow:    7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+		box-shadow:         7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+ 	}
+ 	nav ul li a:before
+ 	{
+ 		font-family: "arr";
+ 		font-size: 1.15em;
+ 		margin-right: .5em;
+ 	}
+ 	nav ul li a#ini:before
+ 	{
+ 		content: "\e600"; 		
+ 	}
+ 	nav ul li a#nos:before
+ 	{
+ 		content: "\e972"; 		
+ 	}
+ 	nav ul li a#serv:before
+ 	{
+ 		content: "\e9b8"; 		
+ 	}
+ 	nav ul li a#cont:before
+ 	{
+ 		content: "\e9cb"; 		
+ 	}
+ 	nav ul li a#eq:before
+ 	{
+ 		content: "\e9cf"; 		
+ 	}
+ 	nav ul li a#cli:before
+ 	{
+ 		content: "\e601"; 		
+ 	}
+ 	section
+ 	{
+ 		background: rgba(135,4,25,.2);
+ 		font-size: .75em;
+ 		margin: 0 auto;
+ 		margin-top: 1em;
+ 		padding: .5em;
+ 		text-align: justify;
+ 		width: 95%;
+ 	}
+ 	section#inicio, #nosotros, #servicios, #contacto, #equipo, #clientes
+ 	{
+ 		display: none;
+ 	}
+ 	textarea
+ 	{
+ 		height: 4em;
+ 		width: 60%;
+ 	}
+ 	#btn-enviar
+ 	{
+ 		background: #8E8D8D;
+ 		color: #fff;
+ 		font-size: 1.5em;
+ 		padding: .5em;
+ 		width: 60%;
+ 	}
+ 	#clientes figure img
+ 	{
+ 		display: block;
+ 		margin: 0 auto;
+ 		margin-bottom: 3em;
+ 		width: 70%;
+ 	}
+ 	#contacto form
+ 	{
+ 		text-align: center;
+ 	}
+ 	#contacto iframe
+ 	{
+ 		width: 100%;
+ 	}
+ 	#equipo
+ 	{
+ 		font-size: .75em;
+ 		text-align: left;
+ 	}
+ 	#equipo figure img
+ 	{
+ 		display: block;
+ 		background: #fff;
+ 		border: solid #035A7C 6px;
+ 		border-radius: 150px;
+ 		height: 10em;
+ 		margin: 0 auto;
+ 		margin-top: 2em;
+ 		padding: .25em;
+ 		width: 10em;
+ 	}
+ 	#flecha-azul
+ 	{
+ 		cursor: pointer;
+ 		display: none;
+ 		font-size: 1em;
+ 		opacity: .3;
+ 		position: fixed;
+ 		top: 60%;
+ 		width: 4em;
+ 	}
+ 	#flecha-azul img
+ 	{
+ 		opacity: .5em;
+ 		width: 4em;
+ 	}
+ 	#movil-ingles
+ 	{
+ 		display: none;
+ 	}
+ 	#regresar
+ 	{
+ 		bottom: 1.5em;
+ 		left: 1em;
+ 		position: fixed;
+ 	}
+ 	#regresar img
+ 	{
+ 		width: 80%;
+ 	}
+ 	#ultimo
+ 	{
+ 		margin-bottom: 4.5em;
+ 	}
+ 	.pc
+ 	{
+ 		display: none;
+ 	}
+ 	.centrar
+ 	{
+ 		display: block;
+ 		text-align: center;
+ 		width: 100%;
+ 	}
+ 	.idiomas
+ 	{
+ 		text-align: center;
+ 		width: 100%;
+ 	}	
+ 	.idiomas figure
+ 	{
+ 		display: inline-block;
+ 		margin-left: 1.25em;
+ 		margin-top: 1em;
+ 	}
+ 	.idiomas figure figcaption
+ 	{
+ 		font-size: .6em;
+ 		left: -.5em;
+ 		position: relative;
+ 	}
+ 	.idiomas figure img
+ 	{
+ 		border-radius: 50px;
+ 		display: block;
+ 		height: 1.25em; 
+ 		width: 1.25em;	
+ 	}
+ 	.subtitulos
+ 	{
+ 		color: #870419;
+ 		font-weight: bold;
+ 	}
+ 	.text-bold
+ 	{
+ 		color: #870419;
+ 		font-weight: bold;
+ 	}
+}
